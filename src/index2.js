@@ -1,10 +1,11 @@
 async function onLoadMore() {
   newsApiService.incrementPage();
   // newsApiService
-        
-  await newsApiService
-    .fetchImage()
-    .then(({ data: { hits, totalHits } }) => {
+
+  const data = await newsApiService.fetchImage();
+
+  try {
+    ({ data: { hits, totalHits } }) => {
       console.log(totalHits);
       renderCard(hits);
       console.log(newsApiService.page);
@@ -15,5 +16,8 @@ async function onLoadMore() {
           'We are sorry, but you have reached the end of search results'
         );
       }
-    })
-    .catch(error => console.log(error));
+    };
+  } catch (error) {
+    console.log(error);
+  }
+}
