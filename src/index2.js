@@ -5,10 +5,12 @@ async function onLoadMore() {
   try {
     const data = await newsApiService.fetchImage();
 
-    const hits = data.hits;
+    const { hits } = data;
+    // const hits = data.hits;
     console.log(hits);
 
-    const totalHits = data.totalHits;
+    const { totalHits } = data;
+    // const totalHits = data.totalHits;
     console.log(totalHits);
 
     renderCard(hits);
