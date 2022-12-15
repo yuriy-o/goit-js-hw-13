@@ -15,5 +15,6 @@ async function onLoadMore() {
           'We are sorry, but you have reached the end of search results'
         );
       }
+      
     })
     .catch(error => console.log(error));
