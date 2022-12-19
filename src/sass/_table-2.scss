@@ -18,6 +18,10 @@ td:first-child {
   font-weight: bold;
   text-align: center;
 }
+td:last-child {
+  text-align: left;
+}
+
 th {
   padding: 10px 20px;
   color: #3d3511;
