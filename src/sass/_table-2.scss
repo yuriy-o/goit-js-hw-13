@@ -4,10 +4,12 @@ table {
 }
 caption {
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 td {
-  padding: 10px 20px;
+  padding: 10px;
+  padding-left: 10px;
   text-align: center;
   border-bottom: 1px solid #f4eee8;
   transition: all 0.5s linear;

@@ -4,5 +4,11 @@ li {
 }
 
 input {
-  margin-right: 20px;
+  margin-right: auto;
+  margin-right: auto;
+}
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
