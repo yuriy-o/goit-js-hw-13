@@ -27,14 +27,29 @@
 //   }
 // }
 
-//! Task 01
+//! Task 01-1
 
-// function addToList(item, list) {
-//   return list.push(item);
-// }
+function addToList(item, list) {
+  return list.push(item);
+}
 
-// const result = addToList('apple', ['banana']);
-// console.log(result); // 2
+const result = addToList('apple', ['banana']);
+console.log(result); // 2
+
+// console.log(addToList('apple', ['banana'])); // 2
+
+//! Task 01-2
+
+function addToList(item, list) {
+  list.push(item);
+
+  return list;
+}
+
+const result = addToList('apple', ['banana']);
+console.log(result); // ['banana', 'apple']
+
+// console.log(addToList('apple', ['banana'])); // ['banana', 'apple']
 
 // a) ['apple', 'banana'];
 // b) ['banana', 'apple']
