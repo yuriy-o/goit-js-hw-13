@@ -76,3 +76,5 @@ let myNestedArray = [
 console.log(myNestedArray[2][0][0]);
 console.log(myNestedArray[2][0][1][0]);
 console.log(myNestedArray[2][0][1][1][0]);
+
+//просто комент для практики
