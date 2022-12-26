@@ -40,14 +40,14 @@ console.log(result); // 2
 
 //! Task 01-2
 
-function addToList(item, list) {
-  list.push(item);
+// function addToList(item, list) {
+//   list.push(item);
 
-  return list;
-}
+//   return list;
+// }
 
-const result = addToList('apple', ['banana']);
-console.log(result); // ['banana', 'apple']
+// const result = addToList('apple', ['banana']);
+// console.log(result); // ['banana', 'apple']
 
 // console.log(addToList('apple', ['banana'])); // ['banana', 'apple']
 
